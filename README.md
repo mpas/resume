@@ -5,12 +5,13 @@ This is where I host my personal resume.
 
 ### Install asciidoctor
 gem install asciidoctor
+
 gem install asciidoctor-pdf
 
 ## Generate Document
 
 ### Generate HTML
-asciidoctor eddiecorrigall_resume.adoc
+asciidoctor marcopas-resume.adoc
 
 ### Generate PDF
-asciidoctor-pdf eddiecorrigall_resume.adoc
+asciidoctor-pdf marcopas-resume.adoc
