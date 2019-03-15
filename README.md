@@ -5,8 +5,7 @@ This is where I host my personal resume.
 
 ### Install asciidoctor
 gem install asciidoctor
-
-gem install asciidoctor-pdf
+gem install asciidoctor-pdf --pre
 
 ## Generate Document
 
