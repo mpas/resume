@@ -1,0 +1,163 @@
+[[work-experience-extended]]
+== icon:file-text[] Work Experience
+
+=== icon:play[] Software Architect Cloud & Platforms - Philips Research [[Philips]]
+icon:calendar[title="Period"] `Oct 2017 to Now (ongoing)` +
+icon:group[title="Employer"] {link-philips}[Philips, role="external", window="_blank"] +
+
+--
+[horizontal]
+Position:: *Software Architect Cloud & Platforms* +
+Defining and implementing cloud (native) architectures for various products while ensuring organizational compliance for global research/product groups. Ensuring that code and deliverables are of high quality with security mitigation's.
+--
+
+* Creation of a customer platform to monitor conditions in ICU units by collecting data by ingestion into *time series databases* for later analysis. Driven by *AWS serverless* software modules.
+* *Driving implementation of Amazon AWS Cloud infrastructure* and services across multiple Philips business units (across the globe)
+* Introduced various *Software Quality* aspects including Software Security Supply Chain (from code to deliverable)
+    ** Introduced *application code security scanning* using Continuous Integration
+    ** Docker security *Container Scanning* as part of delivery pipelines
+    ** *Create and guide Software Project XRays* to enable project to improve in areas that are required
+* Introduction of One Code Base
+    ** Guiding the migration of multiple Source Code Management systems into a single source of truth to ensure reuse across multiple business groups
+
+*Technologies used:* +
+Serverless, Docker, Java, Python, JavaScript, Go, Groovy, SpringBoot, Terraform, SonarQube, AWS Webservices (EC2/ECS/ECR/ELB,S3,CloudWatch,Elasticsearch,RDS,API Gateway), Git, GitLab, GitHub, InSpec, Goss, Fluentd, InfluxDB, SAFe (Scaled Agile Framework)
+
+<<<
+
+=== icon:play[] Software Architect Cloud & Platforms - Interact Platform [[Signify]]
+
+icon:calendar[title="Period"] `Oct 2013 to Oct 2017` +
+icon:group[title="Employer"] {link-signify}[Signify, role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] Platform: https://www.interact-lighting.com/[Interact Office IOT]
+
+--
+[horizontal]
+Position:: *Software Architect Cloud & Platforms* +
+Responsible for the design and implementation of a global Cloud based product platform (architecture and implementation). Ensuring that implemented polyglot microservices are used in multiple product propositions.
+--
+
+The platform is being used for multiple product proposition on which devices are connected using IOT/MQTT.
+Control and data collection via different channels.
+
+* *Drive the implementation of the Cloud infrastructure* and services using Agile/Scrum/SAFe approach
+* Organized various workshops to *create awareness on Cloud architectures and development approach*
+* Implementation of a *Continuous Integration & Deployment environment*
+    ** Docker images are build using a Jenkins cluster and pushed to Amazon ECR Docker repositories (Stash -> Jenkins -> AWS ECR) using Jenkins Pipelines
+* *Infrastructure as Code*
+    ** Creation of *Terraform* modules to enable *Continuous Deployment of the infrastructure and services*
+* Implemented *Microservice architecture*
+    ** Deployment based on *Docker* Images using *AWS ECS Container Services*
+    ** Service interfaces are based on *REST and/or Amazon SQS/RabbitMQ AMQP* broker
+    ** Service contracts written using *Rest Application Markup Language (RAML)*
+    ** __"Service Discovery"__ based on *Consul*
+    ** Service implementations using Java, SpringBoot, Grails, Scala
+    ** Introduced and implemented a __Unified Logging Layer__ based on *Fluentd*
+    ** Infrastructure and service monitoring using *CloudWatch/Prometheus*
+* *Internet Of Things* (IOT) implementation based on the *MQTT* protocol
+
+*Technologies used:* +
+Docker, Java, Groovy, Scala, SpringBoot, Angular, Rest Application Markup Language (RAML),OpenAM, Gradle, Maven, Consul, NetFlix Eureka/Hystrix,
+Terraform, AWS Webservices (EC2/ECS/ECR/ELB,S3,CloudWatch,Elasticsearch,RDS), Grails, Spock, AMQP, RabbitMQ,
+REST, HMAC security, Tomcat, Linux, Neo4J, Jira, Stash, Git, Confluence, Scrum, SAFe (Scaled Agile Framework),
+MQTT, HiveMQ, Prometheus, Fluentd, InfluxDB, Microservices
+
+****
+.Provided platform functionality
+* secured hardware device registration onto Cloud (during bootsequence)
+* device firmware management
+* providing common communication layer using MQTT/AMQP
+* centralized identity management
+* generic Microservice platform (discovery + continuous deployment)
+* unified logging layer
+* centralized monitoring of components
+****
+
+<<<
+
+'''
+
+=== icon:play[] Software Engineer & Architect - EV Solutions [[IHomer]]
+icon:calendar[title="Period"] `Jun 2011 to Oct 2013` +
+icon:group[title="Employer"] {link-ihomer}[IHomer, role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] {link-ocpp}[Open Charge Alliance], {link-elaad}[E-Laad], {link-alfen}[Alfen]
+
+--
+[horizontal]
+Position:: *Software Engineer & Architect* +
+Responsible for design & implementation of a web-based platform to facilitate charging of electrical vehicles.
+--
+
+* Collaborated with various *stakeholders and clients* to optimize the platform
+* Member of the {link-ocpp}[OCPP, role="external", window="_blank"] *steering committee* driving new protocol versions
+* Serve as technical lead on the *AMQP/REST* based architecture
+* Presenting across Europe on the {link-ocpp}[OCPP, role="external", window="_blank"] protocol to get *external partners* involved in development of the protocol
+* *Implementing* the design together with a team
+* Proof of concept implementations for third parties implementing {link-ocpp}[OCPP, role="external", window="_blank"] specifications
+
+*Methodologies & Technologies used:* +
+Java, Groovy, Grails, Spring, Spock, Apache Axis, REST, JMeter, SoapUI, XML, XSLT, SOAP, AMQP, JSON, RabbitMQ, Nokia Maps, HMAC security, Tomcat, Linux, MySQL, Ansible, Agile
+
+****
+.Provided platform functionality
+* hardware status monitoring
+* self service capabilities for charging unit owners
+* executing firmware updates
+* registration of charging sessions
+* 3rd party data integration
+* event push notifications
+* a RESTful API to allow external system integration
+* protocol implementations for connecting charging units (OCPP)
+* web service connections to external service providers
+****
+
+<<<
+
+'''
+
+=== icon:play[] Software Engineer/Competence Lead [[Cgi]]
+icon:calendar[title="Period"] `Sept 1997 to Dec 2008` +
+icon:group[title="Employer"] {link-cgi}[CGI, role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] Clients: Shell, Unilever, GE, Kennisnet, KLM, NS, Aegon, PTT Post, Lyondell
+
+--
+[horizontal]
+Position:: *Software Engineer/Competence Lead/Innovation Architect*
+--
+
+* *Competence Lead*
+    ** Responsible for the professional/people development for a group of +/- 200 software engineers
+* *Innovation Architect*
+    ** Being part of the "Working Tomorrow" innovation incubator creating innovative concepts, technologies & methodologies. Responsible for the architecture, selection, progress and staffing
+* *Software Engineer*
+    ** Implementation of different mobile applications, infrastructures and technologies
+    ** Mobile hardware selection for http://www.klm.nl[KLM] for use in-flight
+    ** Responsible for the design, development and the implementation of a number of applications for an intranet. Applications have been developed using Java on the NetDynamics application server
+    ** Development of high traffic based website for http://www.ns.nl[Dutch Railways]
+    ** Trainer for IBM WebSphere J2EE platform. Introducing concepts such as object orientation, technical directives and design directives
+    ** Implementation of a e-learning platform for http://www.kennisnet.nl[Kennisnet] using Open Source technologies
+    ** First of a kind development of a mobile ticketing platform used by customers like Efteling, Madam Tussaud and Living Tomorrow. Winning the Dutch national ICT Award 2004.
+
+*Methodologies & Technologies used:* +
+.Net Compact Framework, OpenNetCF, Java, iAnywhere SQL studio, IBM WebSphere Connection Manager (WECM),
+Eclipse, NetBeans, Java J2SE, Oracle, Web Services, UML, RUP, JUnit, Tomcat, J2EE, PostgreSQL, MMBase,
+Microsoft Pocket Pc, Windows Mobile, Appforge, J2ME, Java MIDP, BEA WebLogic, NetDynamics
+
+<<<
+
+'''
+
+=== icon:play[] IT Support [[JanDeRijk]]
+icon:calendar[title="Period"] `Nov 1995 to Sept 1997` +
+icon:group[title="Employer"] {link-janderijk}[Jan de Rijk Logistics, role="external", window="_blank"]
+
+--
+[horizontal]
+Position:: *IT Support* +
+Internal IT support Employee responsible for internal projects
+--
+
+* Selection and Implementation of company wide European network. (Wide Area Network)
+* Implementation of a satellite Tracking & Tracing solution for vehicles
+* Optimization of transportation and people planning
+* Implementation of vehicle bound hour registration

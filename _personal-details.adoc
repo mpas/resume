@@ -1,0 +1,36 @@
+[[personal-details]]
+= icon:user[] Personal Details
+
+.Marco Pas
+****
+Happy coder, system architect, software geek, cloud believer, tech guy, open source enthusiasts, wannabe cooking chef, likes to travel, meet new people, share knowledge, and watch movies/series.
+
+* *Hands on* Software/Cloud/Platform & DevOps Engineer
+
+* Loves to attend international technology conferences as *speaker and participant*
+
+* Always *actively learning new technologies & methodologies* and seeking *innovation*
+
+* Happy to work in *multi cultural and global environment*
+
+* *Likes to go abroad and travel* to meet with customers/colleagues
+
+* *Result driven* with a strong *customer focus*
+
+* Believer in *people, teams, lifelong learning* and enjoying life!
+****
+
+Contact::
+* icon:envelope[] E-mail: {MyEmail}
+* icon:phone[] Mobile Phone/WhatsApp: {MyPhone}
+* icon:skype[] Skype: {MySkype}
+
+Social Media::
+
+|===
+| icon:link[] https://mpas.github.io[https://mpas.github.io , role="external", window="_blank"] | icon:twitter[] https://twitter.com/marcopas[Twitter, role="external", window="_blank"] | icon:github[] https://github.com/mpas[GitHub, role="external", window="_blank"]
+| icon:linkedin[] https://linkedin.com/in/marcopas[LinkedIn, role="external", window="_blank"] | icon:desktop[] https://speakerdeck.com/mpas[Speakerdeck, role="external", window="_blank"] | icon:instagram[] https://www.instagram.com/marcopas/[Instagram, role="external", window="_blank"]
+|===
+
+icon:map-marker[] Location::
+* {link-gmaps}[Rijsbergen, The Netherlands]

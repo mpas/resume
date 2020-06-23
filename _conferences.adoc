@@ -1,0 +1,54 @@
+== icon:desktop[] Conferences & Presentations
+
+=== Philips Software Conference, Bangalore/India, September 2019
+* *Are you aware?? Compliance and Security Testing*
+** Internal conference: raising developer awareness around liability and ownership
+
+=== Gr8Conf, Copenhagen, May 2019
+* *Are you aware?? Compliance and Security Testing* - https://2019.gr8conf.eu/talks/759[Session info, role="external", window="_blank"]
+** icon:youtube[] https://www.youtube.com/watch?v=J-6IeVbi9os[Gr8Conf @ *Youtube*, role="external", window="_blank"]
+** icon:file[] https://speakerdeck.com/mpas/compliance-and-security-testing[Slides @ *Speaker Deck*,  role="external", window="_blank"]
+** icon:code[] https://github.com/mpas/compliance-and-security-testing[Source code @ *Github*, role="external", window="_blank"]
+
+=== Gr8Conf, Copenhagen, May 2018
+* *Ridiculous easy centralized application logging & monitoring* - https://2018.gr8conf.eu/talks/486[Session info, role="external", window="_blank"]
+** icon:youtube[] https://www.youtube.com/watch?v=oxLAO6YFIP0[Gr8Conf @ *Youtube*, role="external", window="_blank"]
+** icon:file[] https://speakerdeck.com/mpas/rediculous-easy-centralized-application-logging-and-monitoring[Slides @ *Speaker Deck*,  role="external", window="_blank"]
+** icon:code[] https://github.com/mpas/ridiculously-easy-centralized-application-logging-and-monitoring[Source code @ *Github*, role="external", window="_blank"]
+* *The Internet Of Things and capturing Time Series Data* - https://2018.gr8conf.eu/talks/611[Session info, role="external", window="_blank"]
+** icon:youtube[] https://www.youtube.com/watch?v=5KuZD5icnyg[Gr8Conf @ *Youtube*, role="external", window="_blank"]
+** icon:file[] https://speakerdeck.com/mpas/the-internet-of-things-and-capturing-time-series-data[Slides @ *Speaker Deck*,  role="external", window="_blank"]
+** icon:code[] https://github.com/mpas/the-internet-of-things-and-capturing-time-series-data[Source code @ *Github*, role="external", window="_blank"]
+
+=== Gr8Conf, Copenhagen, May 2017
+
+* *Infrastructure & System Monitoring using Prometheus* - http://gr8conf.eu/#/talk/484[Session info, role="external", window="_blank"]
+** icon:file[] https://speakerdeck.com/mpas/infrastructure-and-system-monitoring-using-prometheus-1[Slides @ *Speaker Deck*,  role="external", window="_blank"]
+** icon:code[] https://github.com/mpas/infrastructure-and-system-monitoring-using-prometheus[Source code @ *Github*, role="external", window="_blank"]
+
+* *Collect distributed application logging using Fluentd (EFK stack)* - http://gr8conf.eu/#/talk/483[Session info, role="external", window="_blank"]
+** icon:youtube[] https://www.youtube.com/watch?v=EZ7PMOGHHws[Gr8Conf @ *Youtube*, role="external", window="_blank"]
+** icon:file[] https://speakerdeck.com/mpas/collect-distributed-application-logging-using-fluentd-efk-stack[Slides @ *Speaker Deck*,  role="external", window="_blank"]
+** icon:code[] https://github.com/mpas/collect-distributed-application-logging-using-fluentd-efk-stack[Source code @ *Github*, role="external", window="_blank"]
+
+* *Running your Dockerized application(s) on AWS EC2 Container Service* - http://gr8conf.eu/#/talk/485[Session info, role="external", window="_blank"]
+** icon:youtube[] https://www.youtube.com/watch?v=J-6IeVbi9os[Gr8Conf @ *Youtube*, role="external", window="_blank"]
+** icon:file[] https://speakerdeck.com/mpas/running-your-dockerized-application-s-on-aws-ec2-container-service[Slides @ *Speaker Deck*,  role="external", window="_blank"]
+** icon:code[] https://github.com/mpas/running-your-dockerized-application-on-aws-ec2-container-service[Source code @ *Github*, role="external", window="_blank"]
+
+=== Devoxx UK, London, May 2017
+
+* *Infrastructure & System Monitoring using Prometheus* - https://cfp.devoxx.co.uk/2017/talk/NLT-5919/Infrastructure_and_application_monitoring_using_Prometheus[Session info, role="external", window="_blank"]
+** icon:youtube[] https://www.youtube.com/watch?v=5GYe_-qqP30[DevoxxUK  @ *Youtube*, role="external", window="_blank"]
+** icon:file[] https://speakerdeck.com/mpas/infrastructure-and-system-monitoring-using-prometheus[Slides @ *Speaker Deck*,  role="external", window="_blank"]
+** icon:code[] https://github.com/mpas/infrastructure-and-system-monitoring-using-prometheus[Source code @ *Github*, role="external", window="_blank"]
+
+=== Gr8Conf, Copenhagen, May 2013
+
+* *Using Grails to power your Electric Car* - http://archive.gr8conf.org/content/eu2013/Presentations/Using-Grails-to-power-your-ele.html[Session info, role="external", window="_blank"]
+** icon:file[] https://speakerdeck.com/mpas/using-grails-to-power-your-electric-car[Slides @ *Speaker Deck*,  role="external", window="_blank"]
+
+=== Devnology, Nov 2010
+
+* *Introduction to Groovy / Grails*
+** icon:file[] https://speakerdeck.com/mpas/grails[Slides @ *Speaker Deck*,  role="external", window="_blank"]

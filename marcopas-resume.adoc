@@ -1,305 +1,33 @@
 = Curriculum Vitae
-Marco Pas <marco.pasopas@gmail.com>
-v1.0, June 6th, 2017
-:toc2:
-:toclevels: 2
-:icons: font
-:linkattrs:
-:sectlink:
-:source-language: asciidoc
+include::./settings.adoc[]
 
-// Refs
-:link-gmaps: https://www.google.com/maps/place/Rijsbergen
-:link-nextbuild: http://www.nextbuild.nl/
-:link-philips: http://www.lighting.philips.com/
-:link-ihomer: http://www.ihomer.nl/
-:link-ocpp: http://www.openchargealliance.org/
-:link-janderijk: http://www.janderijk.nl/
-:link-beldi: http://www.belde.be/
-:link-cgi: http://www.cgi.com/
-:link-elaad: http://www.elaad.nl/
-:link-alfen: http://www.alfen.nl/
+<<<<
 
-
-== Personal Details
-[horizontal]
-Name:: Marco Pas
-WebSite / Social Media::
-* icon:link[] http://mpas.github.io[http://mpas.github.io , role="external", window="_blank"]
-* icon:twitter[] https://twitter.com/marcopas[Twitter, role="external", window="_blank"] 
-* icon:github[] https://github.com/mpas[GitHub, role="external", window="_blank"]
-* icon:linkedin[] https://linkedin.com/in/marcopas[LinkedIn, role="external", window="_blank"]
-* icon:facebook[] https://www.facebook.com/marco.pasopas[Facebook, role="external", window="_blank"]
-* icon:slideshare[] https://www.slideshare.net/MarcoPas1/presentations[Slideshare, role="external", window="_blank"]
-* icon:desktop[] https://speakerdeck.com/mpas[Speakerdeck, role="external", window="_blank"]
-Location:: {link-gmaps}[Rijsbergen, The Netherlands]
-
-[cols="^", options="header"]
-|===
-| Software geek, tech guy, wannabe cooking chef, likes to +
-  travel, meet new people, share knowledge, +
-  watch movies/series, beer enthusiast. +
-  +
-  Hands on Software/Cloud/Platform & DevOps Engineer. +
-  +
-  Believer in people, teams, lifelong learning and +
-  enjoying life!
-|===
+include::./_personal-details.adoc[]
 
 <<<
-== Professional experience
 
-=== Software/Cloud/Platform & DevOps Engineer at Philips Lighting
-icon:calendar[title="Period"] `Oct 2013 to Now (ongoing)` +
-icon:group[title="Employer"] {link-philips}[Philips Lighting, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Customer"] http://interact.lighting.com[Philips Lighting - Interact Office]
+= *Short Resume*
 
---
-[horizontal]
-Position:: *Software/Cloud/Platform & DevOps Engineer* +
-Responsible for the design and implementation of the Cloud Platform Architecture and ensuring that implemented 
-services are used for multiple product propositions
---
-
-The platform is being used for multiple product proposition on which devices are connected using IOT/MQTT.
-Control and data collection via different channels.
-
-* *Drive the implementation of the Cloud infrastructure* and services using Agile/Scrum/SAFe approach
-* Organized various workshops to *create awareness on Cloud architectures and development approach*
-* Implementation of a *Continuous Integration & Deployment environment*
-    ** Docker images are build using a Jenkins cluster and pushed to Amazon ECR Docker repositories (Stash -> Jenkins -> AWS ECR) using Jenkins Pipelines
-* *Infrastructure as Code*
-    ** Creation of *Terraform* modules to enable *Continuous Deployment of the infrastructure and services*
-* Implemented *Microservice architecture*
-    ** Deployment based on *Docker* Images using *AWS ECS Container Services*
-    ** Service interfaces are based on *REST and/or Amazon SQS/RabbitMQ AMQP* broker
-    ** Service contracts written using *Rest Application Markup Language (RAML)*
-    ** __"Service Discovery"__ based on *Consul*
-    ** Service implementations using Java, SpringBoot, Grails, Scala
-    ** Introduced and implemented a __Unified Logging Layer__ based on *Fluentd*
-    ** Infrastructure and service monitoring using *CloudWatch/Prometheus*
-* *Internet Of Things* (IOT) implementation based on the *MQTT* protocol
-
-
-*Technologies used:* +
-Docker, Java, Groovy, Scala, SpringBoot, Angular, Rest Application Markup Language (RAML),OpenAM, Gradle, Maven, Consul, NetFlix Eureka/Hystrix, 
-Terraform, AWS Webservices (EC2/ECS/ECR/ELB,S3,CloudWatch,Elasticsearch,RDS), Grails, Spock, AMQP, RabbitMQ,
-REST, HMAC security, Tomcat, Linux, Neo4J, Jira, Stash, Git, Confluence, Scrum, SAFe (Scaled Agile Framework),
-MQTT, HiveMQ, Prometheus, Fluentd, InfluxDB, Microservices
-
-****
-.Provided platform functionality
-* secured hardware device registration onto Cloud (during bootsequence)
-* device firmware management
-* providing common communication layer using MQTT/AMQP
-* centralized identity management
-* generic Microservice platform (discovery + continuous deployment)
-* unified logging layer
-* centralized monitoring of components
-****
-
-'''
-
-=== Software Engineer/Architect EV Solutions at IHomer
-icon:calendar[title="Period"] `Jun 2011 to Oct 2013` +
-icon:group[title="Employer"] {link-ihomer}[IHomer, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Customer"] {link-ocpp}[Open Charge Alliance], {link-elaad}[E-Laad], {link-alfen}[Alfen]
-
---
-[horizontal]
-Position:: *Software Engineer - Architect* +
-Responsible for design & implementation of a web-based platform to facilitate charging of electrical vehicles
---
-
-* Collaborated with various *stakeholders and clients* to optimize the platform
-* Member of the {link-ocpp}[OCPP, role="external", window="_blank"] *steering committee* driving new protocol versions
-* Serve as technical lead on the *AMQP/REST* based architecture
-* Presenting across Europe on the {link-ocpp}[OCPP, role="external", window="_blank"] protocol to get *external partners* involved in development of the protocol
-* *Implementing* the design together with a team
-* Proof of concept implementations for third parties implementing {link-ocpp}[OCPP, role="external", window="_blank"] specifications
-
-*Methodologies & Technologies used:* +
-Java, Groovy, Grails, Spring, Spock, Apache Axis, REST, JMeter, SoapUI, XML, XSLT, SOAP, AMQP, JSON, RabbitMQ, Nokia Maps, HMAC security, Tomcat, Linux, MySQL, Ansible, Agile
-
-****
-.Provided platform functionality
-* hardware status monitoring
-* self service capabilities for charging unit owners
-* executing firmware updates
-* registration of charging sessions
-* 3rd party data integration
-* event push notifications
-* a RESTful API to allow external system integration
-* protocol implementations for connecting charging units (OCPP)
-* web service connections to external service providers
-****
-
-'''
-
-=== Technical Lead/Software engineer at IHomer
-icon:calendar[title="Period"] `Jan 2009 to Jun 2011` +
-icon:group[title="Employer"] {link-ihomer}[IHomer, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Customer"] {link-beldi}[Belgian Distribution Service, role="external", window="_blank"]
-
---
-[horizontal]
-Position:: *Technical Lead/Software Engineer* +
-Restructure a Java/Web based ERP system and build the internal development organization
---
-
-* Set-up the internal development team
-* Implementation of distributed development environment and process (requirements, development, testing & deployment)
-* Gathering functional & non-functional requirement
-* Create agile awareness and implement SCRUM development methodology
-
-*Methodologies & Technologies used:* +
-Java, JEE, Spring, Hibernate, Javascript, YUI, JBoss, JUnit, JMeter, UML, Jenkins
-
-'''
-
-=== Software Engineer/Competence Lead at CMG/LogicaCMG/Logica
-icon:calendar[title="Period"] `Sept 1997 to Dec 2008` +
-icon:group[title="Employer"] {link-cgi}[CMG/LogicaCMG/Logica, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Customer"] Shell, Unilever, GE, Kennisnet, KLM, NS, Aegon, PTT Post, Lyondell
-
---
-[horizontal]
-Position:: *Software Engineer/Competence Lead/Innovation Architect*
---
-
-* *Competence Lead*
-    ** Responsible for the professional/people development for a group of +/- 200 software engineers
-* *Innovation Architect*
-    ** Being part of the "Working Tomorrow" innovation incubator creating innovative concepts, technologies & methodologies. Responsible for the architecture, selection, progress and staffing
-* *Software Engineer*
-    ** Implementation of different mobile applications, infrastructures and technologies
-    ** Mobile hardware selection for http://www.klm.nl[KLM] for use in-flight
-    ** Responsible for the design, development and the implementation of a number of applications for an intranet. Applications have been developed using Java on the NetDynamics application server
-    ** Development of high traffic based website for http://www.ns.nl[Dutch Railways]
-    ** Trainer for IBM WebSphere J2EE platform. Introducing concepts such as object orientation, technical directives and design directives
-    ** Implementation of a e-learning platform for http://www.kennisnet.nl[Kennisnet] using Open Source technologies
-    ** First of a kind development of a mobile ticketing platform used by customers like Efteling, Madam Tussaud and Living Tomorrow. Winning the Dutch national ICT Award 2004.
-
-*Methodologies & Technologies used:* +
-.Net Compact Framework, OpenNetCF, Java, iAnywhere SQL studio, IBM WebSphere Connection Manager (WECM),
-Eclipse, NetBeans, Java J2SE, Oracle, Web Services, UML, RUP, JUnit, Tomcat, J2EE, PostgreSQL, MMBase,
-Microsoft Pocket Pc, Windows Mobile, Appforge, J2ME, Java MIDP, BEA WebLogic, NetDynamics
-
-'''
-
-=== IT Support at Jan de Rijk Logistics
-icon:calendar[title="Period"] `Nov 1995 to Sept 1997` +
-icon:group[title="Employer"] {link-janderijk}[Jan de Rijk Logistics, role="external", window="_blank"] +
-
---
-[horizontal]
-Position:: *IT Support* +
-Internal IT support Employee responsible for internal projects
---
-
-* Selection and Implementation of company wide European network. (Wide Area Network)
-* Implementation of a satellite Tracking & Tracing solution for vehicles
-* Optimization of transportation and people planning
-* Implementation of vehicle bound hour registration
+include::./_technical-skills.adoc[]
 
 <<<
-== Side Projects
-
-=== NextBuild Conference
-icon:calendar[title="Period"] `May 2015 to Now (On going)` +
-icon:group[title="Employer"] {link-nextbuild}[NextBuild, role="external", window="_blank"]
-
-*Initiator and organizer* of the *free* NextBuild Software Conference. The NextBuild Conference is intended for 
-developers/architects who are passionate about software development and want to learn, meet and share. 
-The conference runs every year and has roughly has *25+ speakers, 300+ attendees running in 4 parallel tracks*.
+include::./_work-experience-short.adoc[]
 
 <<<
-== Technical Skills
 
-Containers:: Docker, Docker Compose, Docker Machine, Docker Swarm, AWS ECS
+= *Extended Resume*
 
-Webservices:: SOAP, REST, Rest Application Markup Language(RAML), JSON, SoapUI, Postman, Microservices
-
-Cloud:: AWS, AWS EC2, AWS ECS, AWS ELB/ALB, AWS ElasticSearch, AWS Lambda, AWS Kibana, Terraform, CloudFormation, Fluentd, Prometheus, InfluxDB, Consul, NetFlix Eureka/Hystrix
-
-Languages and Specifications:: Java, Groovy, Go, Ruby, Elixir, Scala, JavaScript, AsciiDoc, HTML5, Markdown, Shell scripting, XML, CSS
-
-Software Engineering:: DevOps, ChatOps, Continuous Integration, Continuous Delivery, Unit Testing, Integration Testing
-
-Application Servers:: Apache Tomcat, Apache HTTP Web Server
-
-Frameworks and Libraries:: Grails, SpringBoot, Spring, Gorm
-
-Databases:: MySQL, PostgreSQL, Neo4J
-
-OS:: Linux, Mac OSX, Windows
-
-Protocols:: HTTP, WebSockets, REST, OCPP, AMQP, JMS, MQTT
-
-Tools:: IntelliJ, Eclipse, Maven, JIRA, STASH, Gradle, Git, Jenkins, Subversion, Asciidoctor, Jenkins, Sonar, Nexus, JMeter, OpenAM, HiveMQ
-
-Methodologies:: TDD, Agile/Scrum, SAFe (Scaled Agile Framework)
-
+include::./_work-experience-extended.adoc[]
 
 <<<
-== Conferences & Presentations
 
-=== Gr8Conf, Copenhagen, May 2018
-* *Rediculous easy centralized application logging & monitoring* - https://2018.gr8conf.eu/talks/486[Session info, role="external", window="_blank"]
-** icon:file[] https://speakerdeck.com/mpas/rediculous-easy-centralized-application-logging-and-monitoring[Slides @ *Speaker Deck*,  role="external", window="_blank"]
-** icon:code[] https://github.com/mpas/ridiculously-easy-centralized-application-logging-and-monitoring[Source code @ *Github*, role="external", window="_blank"]
-* *The Internet Of Things and capturing Time Series Data* - https://2018.gr8conf.eu/talks/611[Session info, role="external", window="_blank"]
-** icon:file[] https://speakerdeck.com/mpas/the-internet-of-things-and-capturing-time-series-data[Slides @ *Speaker Deck*,  role="external", window="_blank"]
-** icon:code[] https://github.com/mpas/the-internet-of-things-and-capturing-time-series-data[Source code @ *Github*, role="external", window="_blank"]
+---
 
-=== Gr8Conf, Copenhagen, May 2017
+include::./_conferences.adoc[]
 
-* *Infrastructure & System Monitoring using Prometheus* - http://gr8conf.eu/#/talk/484[Session info, role="external", window="_blank"]
-** icon:file[] https://speakerdeck.com/mpas/infrastructure-and-system-monitoring-using-prometheus-1[Slides @ *Speaker Deck*,  role="external", window="_blank"]
-** icon:code[] https://github.com/mpas/infrastructure-and-system-monitoring-using-prometheus[Source code @ *Github*, role="external", window="_blank"]
+<<<
 
-* *Collect distributed application logging using Fluentd (EFK stack)* - http://gr8conf.eu/#/talk/483[Session info, role="external", window="_blank"]
-** icon:file[] https://speakerdeck.com/mpas/collect-distributed-application-logging-using-fluentd-efk-stack[Slides @ *Speaker Deck*,  role="external", window="_blank"]
-** icon:code[] https://github.com/mpas/collect-distributed-application-logging-using-fluentd-efk-stack[Source code @ *Github*, role="external", window="_blank"]
+---
 
-* *Running your Dockerized application(s) on AWS EC2 Container Service* - http://gr8conf.eu/#/talk/485[Session info, role="external", window="_blank"]
-** icon:file[] https://speakerdeck.com/mpas/running-your-dockerized-application-s-on-aws-ec2-container-service[Slides @ *Speaker Deck*,  role="external", window="_blank"]
-** icon:code[] https://github.com/mpas/running-your-dockerized-application-on-aws-ec2-container-service[Source code @ *Github*, role="external", window="_blank"]
-
-=== Devoxx UK, London, May 2017
-
-* *Infrastructure & System Monitoring using Prometheus* - https://cfp.devoxx.co.uk/2017/talk/NLT-5919/Infrastructure_and_application_monitoring_using_Prometheus[Session info, role="external", window="_blank"]
-** icon:youtube[] https://www.youtube.com/watch?v=5GYe_-qqP30[DevoxxUK  @ *Youtube*, role="external", window="_blank"]
-** icon:file[] https://speakerdeck.com/mpas/infrastructure-and-system-monitoring-using-prometheus[Slides @ *Speaker Deck*,  role="external", window="_blank"]
-** icon:code[] https://github.com/mpas/infrastructure-and-system-monitoring-using-prometheus[Source code @ *Github*, role="external", window="_blank"]
-
-=== Gr8Conf, Copenhagen, May 2013
-
-* *Using Grails to power your Electric Car* - http://archive.gr8conf.org/content/eu2013/Presentations/Using-Grails-to-power-your-ele.html[Session info, role="external", window="_blank"]
-** icon:file[] https://speakerdeck.com/mpas/using-grails-to-power-your-electric-car[Slides @ *Speaker Deck*,  role="external", window="_blank"]
-
-=== Devnology, Nov 2010
-
-* *Introduction to Groovy / Grails*
-** icon:file[] https://speakerdeck.com/mpas/grails[Slides @ *Speaker Deck*,  role="external", window="_blank"]
-
-== Education
-
-[cols="90%,>10%", options="header"]
-|===
-| Name                                                  | Year
-| AWS Certified Developer - Associate 2017              | ongoing
-| AWS Certified SysOps Administrator - Associate 2017   | ongoing
-| AWS Certified Solutions Architect                     | ongoing
-| AWS Certified DevOps Engineer - Professional          | ongoing
-| Certified Scrum Master                                | 2014
-| Dutch national ICT Award 2004                         | 2004
-| Certified Java Developer                              | 2001
-| Laboratory Information Automation (Bachelor Degree)   | 1997
-|===
-
-== Interests
-
-* *Learning:* Always interested in learning new technologies & methodologies, currently looking at: Serverless Computing, Google Cloud/Kubernetes, Elixir, Golang and ChatOps
-* *Travelling:* Like to experience new cultures, environments and meeting new people
-* *Cooking:* Preparing, tasting and sharing food
+include::./_side-projects.adoc[]

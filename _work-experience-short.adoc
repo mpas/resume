@@ -1,0 +1,41 @@
+[[work-experience-short]]
+== icon:file-text[] Work Experience
+
+[cols="1,1,4,1", options="noheader", stripes=odd]
+|===
+| icon:calendar[title="Period"] *Oct 2017*
+| icon:calendar[title="Period"] *Current*
+| link:#Philips[*Software Architect Cloud & Platforms - Philips Research*]
+| *Philips*
+
+4+| Responsible for the design and implementation of various products *_(based on Amazon AWS)_*. +
+*_Evangelizing best practice software engineering principles_* across the entire (global) organization.
+
+| icon:calendar[title="Period"] *Oct 2013*
+| icon:calendar[title="Period"] *Oct 2017*
+| link:#Signify[*Software Architect Cloud & Platforms - Interact Platform*]
+| *Signify*
+
+4+| Responsible for the design and implementation of a *_global Cloud based product platform (based on Amazon AWS)_* (architecture and implementation). Ensuring that implemented polyglot microservices are used in *_multiple product propositions_*.
+
+| icon:calendar[title="Period"] *Dec 2008*
+| icon:calendar[title="Period"] *Oct 2013*
+| link:#IHomer[*Software Engineer & Architect - EV Solutions*]
+| *IHomer*
+
+4+| Responsible for design & implementation of a *_global web-based platform to facilitate charging of electrical vehicles_*.
+
+| icon:calendar[title="Period"] *Sept 1997*
+| icon:calendar[title="Period"] *Dec 2008*
+| link:#CGI[*Software Engineer/Competence Lead*]
+| *CGI*
+
+4+| Implementation of different *_mobile applications, infrastructures and technologies and professional/people development_* for a group of +/- 200 software engineers.
+
+| icon:calendar[title="Period"] *Nov 1995*
+| icon:calendar[title="Period"] *Sept 1997*
+| link:#JanDeRijk[*Internal IT support*]
+| *Jan de Rijk Logistics*
+
+4+| Implementation of internal projects, including *_transport planning, vehicle track and trace_*.
+|===

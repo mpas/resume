@@ -1,0 +1,46 @@
+[[technical-skills]]
+== icon:cogs[] Technical Skills
+
+[cols="h,3"]
+|===
+
+h|Techniques  a|
+
+    * Serverless _(AWS Lambda)_
+    * Microservices
+        ** Service Discovery _(Consul, Eureka)_
+        ** Monitoring _(Prometheus, Influx)_
+        ** Logging _(Cloudwatch, Fluentd)_
+    * Container Orchestration _(Docker, AWS ECS)_
+    * Infrastructure as Code _(Terraform)_
+    * Internet Of Things _(MQTT, HiveMQ)_
+    * Web Services _(SOAP, REST)_
+    * Message Driven Architectures _(AMQP, JMS, RabbitMQ)_
+    * Time Series Databases _(Prometheus, InfluxDB)_
+    * Software Engineering Practices
+        ** Continuous Integration, Continuous Delivery
+        ** Unit Testing, Integration Testing
+    * Secure Software Supply Chain _(Inspec, Goss)_
+    * DevOps/ChatOps _(Immutable Builds, Builds as Code)_
+    * Software Quality _(SonarQube, Tics)_
+    * TDD, Agile/Scrum, SAFe (Scaled Agile Framework), Kanban
+
+h|Tools a|
+
+    * Version Control Systems (Git, GitHub)
+    * Continuous Integration Systems (GitLab, GitHub, Jenkins)
+    * Databases _(MySQL, PostgreSQL, AWS RDS, Neo4J)_
+
+h|Platforms a|
+
+    * AWS Cloud Platform
+        ** _(EC2, ECS, ELB/ALB, VPC, IAM, Cognito, ElasticSearch, Cloud Gateway, Lambda, Kibana, RDS, Cloudwatch, Cloudformation)_
+
+h|Language & Frameworks a|
+
+    * Java, Python, Groovy, Go, Ruby, Elixir, JavaScript
+    * Spring _(Boot, Cloud, NetFlix Eureka/Hystrix)_
+    * Infrastructure and Container Compliance _(InSpec, Goss)_
+    * Grails/Micronaut
+    * Markdown, AsciiDoc
+|===
