@@ -4,6 +4,7 @@ Marco Pas <marco.pasopas@gmail.com>
 :toclevels: 3
 :icons: font
 :linkattrs:
+:sectanchors:
 :sectlink:
 :source-language: asciidoc
 :leveloffset: +1

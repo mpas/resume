@@ -36,7 +36,5 @@ Social Media::
 | icon:desktop[] https://speakerdeck.com/mpas[Speakerdeck, role="external", window="_blank"] | icon:instagram[] https://www.instagram.com/marcopas/[Instagram, role="external", window="_blank"] | icon:link[] https://mpas.github.io[https://mpas.github.io , role="external", window="_blank"]
 |===
 
-
-
 icon:map-marker[] Location::
 * {link-gmaps}[Rijsbergen, The Netherlands]
