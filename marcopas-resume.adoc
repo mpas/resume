@@ -1,33 +1,40 @@
 = Curriculum Vitae
 include::./settings.adoc[]
 
-<<<<
+<<<
 
 include::./_personal-details.adoc[]
 
 <<<
+---
 
 = *Short Resume*
 
 include::./_technical-skills.adoc[]
 
 <<<
+---
+
 include::./_work-experience-short.adoc[]
 
 <<<
+---
 
 = *Extended Resume*
 
 include::./_work-experience-extended.adoc[]
 
 <<<
-
 ---
 
 include::./_conferences.adoc[]
 
 <<<
+---
 
+include::./_education.adoc[]
+
+<<<
 ---
 
 include::./_side-projects.adoc[]

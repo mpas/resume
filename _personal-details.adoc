@@ -7,9 +7,13 @@ Happy coder, system architect, software geek, cloud believer, tech guy, open sou
 
 * *Hands on* Software/Cloud/Platform & DevOps Engineer
 
+* System architect, able to *make complex problems simple*
+
 * Loves to attend international technology conferences as *speaker and participant*
 
 * Always *actively learning new technologies & methodologies* and seeking *innovation*
+
+* Explaining *complex technologies in a simple and effective way*
 
 * Happy to work in *multi cultural and global environment*
 
@@ -28,9 +32,11 @@ Contact::
 Social Media::
 
 |===
-| icon:link[] https://mpas.github.io[https://mpas.github.io , role="external", window="_blank"] | icon:twitter[] https://twitter.com/marcopas[Twitter, role="external", window="_blank"] | icon:github[] https://github.com/mpas[GitHub, role="external", window="_blank"]
-| icon:linkedin[] https://linkedin.com/in/marcopas[LinkedIn, role="external", window="_blank"] | icon:desktop[] https://speakerdeck.com/mpas[Speakerdeck, role="external", window="_blank"] | icon:instagram[] https://www.instagram.com/marcopas/[Instagram, role="external", window="_blank"]
+| icon:linkedin[] https://linkedin.com/in/marcopas[LinkedIn, role="external", window="_blank"] | icon:twitter[] https://twitter.com/marcopas[Twitter, role="external", window="_blank"] | icon:github[] https://github.com/mpas[GitHub, role="external", window="_blank"]
+| icon:desktop[] https://speakerdeck.com/mpas[Speakerdeck, role="external", window="_blank"] | icon:instagram[] https://www.instagram.com/marcopas/[Instagram, role="external", window="_blank"] | icon:link[] https://mpas.github.io[https://mpas.github.io , role="external", window="_blank"]
 |===
+
+
 
 icon:map-marker[] Location::
 * {link-gmaps}[Rijsbergen, The Netherlands]

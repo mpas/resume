@@ -1,5 +1,5 @@
 [[technical-skills]]
-== icon:cogs[] Technical Skills
+== icon:plug[] Technical Skills
 
 [cols="h,3"]
 |===
@@ -8,39 +8,38 @@ h|Techniques  a|
 
     * Serverless _(AWS Lambda)_
     * Microservices
-        ** Service Discovery _(Consul, Eureka)_
-        ** Monitoring _(Prometheus, Influx)_
-        ** Logging _(Cloudwatch, Fluentd)_
+        ** Service Discovery _(Consul, Eureka, AWS Route53)_
+        ** Monitoring _(Prometheus, Influx, AWS CloudWatch)_
+        ** Logging _(Fluentd, AWS CloudWatch/Kibana)_
     * Container Orchestration _(Docker, AWS ECS)_
     * Infrastructure as Code _(Terraform)_
-    * Internet Of Things _(MQTT, HiveMQ)_
+    * Infrastructure and Container Compliance _(InSpec, Goss)_
     * Web Services _(SOAP, REST)_
-    * Message Driven Architectures _(AMQP, JMS, RabbitMQ)_
+    * Internet Of Things _(MQTT, HiveMQ)_
+    * Message Driven Architectures _(AMQP, JMS, RabbitMQ, AWS SQS)_
     * Time Series Databases _(Prometheus, InfluxDB)_
     * Software Engineering Practices
-        ** Continuous Integration, Continuous Delivery
-        ** Unit Testing, Integration Testing
-    * Secure Software Supply Chain _(Inspec, Goss)_
-    * DevOps/ChatOps _(Immutable Builds, Builds as Code)_
+        ** Continuous Integration, Continuous Delivery, Unit Testing, Integration Testing
+    * Secure Software Supply Chain _(SonarQube, InSpec, Goss, Clair)_
+    * DevOps/ChatOps _(Immutable Builds, Builds as Code, Lita/Errbot)_
     * Software Quality _(SonarQube, Tics)_
     * TDD, Agile/Scrum, SAFe (Scaled Agile Framework), Kanban
 
 h|Tools a|
 
-    * Version Control Systems (Git, GitHub)
+    * Version Control Systems (Git, Subversion)
     * Continuous Integration Systems (GitLab, GitHub, Jenkins)
-    * Databases _(MySQL, PostgreSQL, AWS RDS, Neo4J)_
+    * Databases _(MySQL, PostgreSQL, Neo4J, AWS RDS)_
+    * Build tools _(Maven, Gradle, Ant)_
 
 h|Platforms a|
 
     * AWS Cloud Platform
-        ** _(EC2, ECS, ELB/ALB, VPC, IAM, Cognito, ElasticSearch, Cloud Gateway, Lambda, Kibana, RDS, Cloudwatch, Cloudformation)_
+        ** _(EC2, ECS, ELB/ALB, VPC, IAM, Cognito, ElasticSearch, API Gateway, Lambda, Kibana, RDS, CloudWatch, SQS, CloudFormation)_
 
 h|Language & Frameworks a|
 
-    * Java, Python, Groovy, Go, Ruby, Elixir, JavaScript
+    * Java, Python, Groovy, Go, Ruby, Elixir, JavaScript, HTML5, XML, CSS
     * Spring _(Boot, Cloud, NetFlix Eureka/Hystrix)_
-    * Infrastructure and Container Compliance _(InSpec, Goss)_
     * Grails/Micronaut
-    * Markdown, AsciiDoc
 |===

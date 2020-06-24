@@ -1,0 +1,22 @@
+[[education]]
+== icon:graduation-cap[] Education
+
+[cols="90%,>10%", options="header"]
+|===
+| Name                                                      | Year
+| Various programming and platform courses                  | 2014-now
+| Certified Scrum Master                                    | 2014
+| Dutch national ICT Award 2004                             | 2004
+| Certified Java Developer                                  | 2001
+| Laboratory Information & Automation (Bachelor Degree)     | 1997
+|===
+
+=== Language Skills
+
+[options="header"]
+|===
+| Language  | Level
+| Dutch     | native language
+| English   | fluent (reading, speaking, writing)
+| German    | intermediate (reading)
+|===

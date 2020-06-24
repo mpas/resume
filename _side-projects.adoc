@@ -2,7 +2,7 @@
 == icon:users[] Side Projects
 
 === NextBuild Conference
-icon:calendar[title="Period"] `May 2015 to Dec 2019` +
-icon:group[title="Employer"] {link-nextbuild}[NextBuild, role="external", window="_blank"]
+icon:calendar[] `May 2015 to Dec 2019` +
+icon:group[] {link-nextbuild}[NextBuild, role="external", window="_blank"]
 
 *Initiator and organizer* of the *free* NextBuild Software Conference. The NextBuild Conference is intended for developers/architects who are passionate about software development and want to learn, meet and share. The conference runs every year and has roughly has *25+ speakers, 300+ attendees running in 4 parallel tracks*.

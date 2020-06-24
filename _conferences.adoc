@@ -1,4 +1,5 @@
-== icon:desktop[] Conferences & Presentations
+[[conferences-and-presentations]]
+== icon:comments[] Conferences & Presentations
 
 === Philips Software Conference, Bangalore/India, September 2019
 * *Are you aware?? Compliance and Security Testing*
