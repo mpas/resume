@@ -3,6 +3,16 @@ include::./settings.adoc[]
 
 <<<
 
+ifdef::backend-html5[]
+[NOTE]
+====
+Download the link:{published-cv-pdf}[printable (PDF) version]
+
+This CV is written in AsciiDoc format.
+Its source code is available at my link:{myGitHub}/resume[resume repository] on my link:{myGitHub}[GitHub account].
+====
+endif::[]
+
 include::./_personal-details.adoc[]
 
 <<<

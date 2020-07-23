@@ -14,7 +14,9 @@ Marco Pas <marco.pasopas@gmail.com>
 :MyPhone: +31 6 18808521
 :MyEmail: marco.pasopas@gmail.com
 :MySkype: marco.pasopas
+:MyGitHub: https://github.com/mpas
 
+:published-cv-pdf: https://mpas.github.io/resume/marco-pas-resume.pdf
 :link-gmaps: https://www.google.com/maps/place/Rijsbergen
 :link-nextbuild: http://www.nextbuild.nl/
 :link-philips: https://www.philips.com/
