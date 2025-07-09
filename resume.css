@@ -1,0 +1,204 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+@page {
+  margin: 12mm;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12pt;
+  color: #3a3a3a; /* main text color */
+  background: #f7fafd; /* subtle off-white background */
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  padding: 1.5rem;
+  margin: 0 auto;
+  max-width: 1000px;
+  color: inherit;
+  background: inherit;
+}
+
+a {
+  color: #1e90ff; /* bright dodger blue */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #0d5db8; /* darker blue on hover */
+  text-decoration: underline;
+}
+
+ul,
+ol {
+  padding-left: 1.2em;
+}
+li {
+  margin-top: 0.25em;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+/* Name */
+h1 {
+  font-size: 2.4rem;
+  letter-spacing: -0.7px;
+  color: #0b3d91;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  background: none;
+}
+
+/* Section headers */
+h2 {
+  font-size: 1.4rem;
+  border-bottom: 2px solid #4a90e2;
+  padding-bottom: 0.3rem;
+  color: #2c3e50;
+  background: none;
+}
+
+/* Job titles */
+h3 {
+  font-size: 1.25rem;
+  color: #0b3d91;
+  background: none;
+  padding: 0.18em 0.6em;
+  border-left: 4px solid #1e90ff;
+  border-radius: 4px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* Company name */
+h4 {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: #0b3d91;
+  background: none;
+  padding: 0.15em 0.7em;
+  border-radius: 4px;
+  margin-top: 0.7em;
+  margin-bottom: 0.3em;
+  letter-spacing: 0.01em;
+  box-shadow: none;
+}
+
+/* Secondary job titles or locations */
+h5 {
+  font-size: 1.04rem;
+  font-weight: 600;
+  color: #0b3d91;
+  background: none;
+  padding: 0.12em 0.55em;
+  border-radius: 4px;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+  letter-spacing: 0.01em;
+  border-left: 3px solid #1e90ff;
+}
+
+/* Optional: Style h6 for even more clarity if used */
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #34495e;
+  background: none;
+  padding: 0.1em 0.5em;
+  border-radius: 4px;
+  margin-top: 0.4em;
+  margin-bottom: 0.15em;
+  letter-spacing: 0.01em;
+  border-left: 2px solid #4a90e2;
+}
+
+/* Header container */
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1.75rem;
+  border-bottom: 1px solid #d0d7e0;
+  padding-bottom: 0.5rem;
+}
+
+.heading .info {
+  text-align: right;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #555;
+}
+
+/* Responsive improvement */
+@media screen and (max-width: 600px) {
+  .heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .heading .info {
+    text-align: left;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Section spacing helper */
+.section {
+  margin-bottom: 1.75rem;
+}
+
+/* Print color handling */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  h2 {
+    font-size: 1rem !important;
+    padding-bottom: 0.15rem !important;
+  }
+  h3 {
+    font-size: 0.9rem !important;
+    padding: 0.1em 0.3em !important;
+  }
+}
+
+/* Summary container */
+.summary-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Summary photo */
+.summary-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 0; /* Make square */
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 3px solid #1e90ff;
+  transition: transform 0.3s ease;
+}
+.summary-photo:hover {
+  transform: scale(1.05);
+}
